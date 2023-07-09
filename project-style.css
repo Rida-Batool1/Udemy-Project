@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.top-container {
+    background: url(./Images/1.avif) no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 2rem;
+    color: rgb(115, 190, 190);
+}
+
+.top-container h1{
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: -27px;
+}
+.top-container h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+span{
+    text-decoration: underline;
+}
+
+
+/* middle-container */
+.middle-first{
+    margin-top: 30px;  
+    
+}
+.profile{
+    border-radius: 70px;
+    display: block;
+    margin: auto;
+}
+.middle-first h3 {
+    text-align: center;
+    margin-top: 0px;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+}
+hr{
+    border: 5px dotted antiquewhite;
+    border-bottom: none;
+    width: 10%;
+}
+.middle-second{
+    margin: 37px auto;
+    width: 50%;
+}
+.middle-second img{
+    float: left;
+}
+.middle-second .second{
+    margin-top: 60px;
+
+}
+.content{
+    margin-left: 200px;
+    width: 475px;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 30px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+.middle-third{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+
+}
+.middle-third h3{
+    color: rgb(115, 190, 190);
+}
+.middle-third h4{
+    color: rgb(115, 190, 190);
+
+}
+.btn{
+    background-color:rgb(115, 190, 190) ;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+/* Third Container */
+.third-container{
+    margin-top: 45px;
+    background-color:rgb(115, 190, 190) ;
+    color: white;
+
+}
+.third-container .navbar ul{
+    /* height: 50px; */
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
